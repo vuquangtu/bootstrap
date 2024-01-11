@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #app {
+      background-color: rgb(51, 51, 51, 0.3);
+      width: 100%;
+
+      font-size: 1.6rem;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 100vh;
+      margin: 0 auto;
+    }
+    .header {
+      background-color: yellow;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .body {
+      background-color: green;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .foot {
+      background-color: yellow;
+      height: 20vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="header">header</div>
+        <div class="body">Body</div>
+        <div class="foot">Foot</div>
+      </div>
+    </div>
+  </body>
+</html>
